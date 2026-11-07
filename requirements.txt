@@ -1,4 +1,5 @@
-import yfinance
-import pandas
-import numpy
-import streamlit
+streamlit
+yfinance
+pandas
+numpy
+scikit-learn
