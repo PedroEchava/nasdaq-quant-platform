@@ -1,4 +1,4 @@
-# 📈 Nasdaq 100 Factor Timing & Machine Learning Quant Platform
+# Nasdaq 100 Factor Timing & Machine Learning Quant Platform
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-red.svg)
@@ -19,7 +19,7 @@ Esta herramienta automatiza el proceso de análisis financiero mediante:
 
 ---
 
-## ⚙️ Arquitectura Técnica y Funcionalidades
+## Arquitectura Técnica y Funcionalidades
 
 * Modelo Predictivo (*Random Forest Classifier*): Entrenado con datos históricos para estimar la probabilidad individual de subida de las empresas componentes del Nasdaq 100.
 * Ingeniería de Características (Feature Engineering): 
