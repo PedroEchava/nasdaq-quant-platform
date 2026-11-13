@@ -10,7 +10,6 @@ Streamlit para la toma de decisiones basada en datos y una gestión estricta del
 
 ---
 
-
 Esta herramienta automatiza el proceso de análisis financiero mediante:
 1. Extracción y procesamiento de datos de mercado en tiempo real.
 2. Entrenamiento de un modelo predictivo para calcular la probabilidad de apreciación de los activos.
@@ -21,15 +20,17 @@ Esta herramienta automatiza el proceso de análisis financiero mediante:
 
 ## Arquitectura Técnica y Funcionalidades
 
-* Modelo Predictivo (*Random Forest Classifier*): Entrenado con datos históricos para estimar la probabilidad individual de subida de las empresas componentes del Nasdaq 100.
-* Ingeniería de Características (Feature Engineering): 
+* **Modelo Predictivo (*Random Forest Classifier*):** Entrenado con datos históricos para estimar la probabilidad individual de subida de las empresas componentes del Nasdaq 100.
+* **Ingeniería de Características (*Feature Engineering*):** 
   * Cálculo del momentum relativo a 1 mes (`Momentum_1M_%`).
   * Análisis de factores macro y métricas clave de comportamiento técnico.
-* Gestión de Riesgo Interactiva: Integración de un *slider* en la barra lateral de Streamlit (`st.sidebar.slider`) para ajustar el umbral de confianza predictiva (ej. 60% por defecto).
-* Generación de Señales Quantitative (`BUY` / `SELL`): Clasificación automática e inferencia en vivo sobre el universo del mercado.
-* Ponderación de Portafolio: Filtro automático que rebalancea el capital únicamente entre los activos que superan el parámetro de confianza seleccionado.
+* **Gestión de Riesgo Interactiva:** Integración de un *slider* en la barra lateral de Streamlit (`st.sidebar.slider`) para ajustar el umbral de confianza predictiva (ej. 60% por defecto).
+* **Generación de Señales Quantitative (`BUY` / `SELL`):** Clasificación automática e inferencia en vivo sobre el universo del mercado.
+* **Ponderación de Portafolio:** Filtro automático que rebalancea el capital únicamente entre los activos que superan el parámetro de confianza seleccionado.
 
 ---
+
+## Tech Stack
 
 * **Lenguaje:** Python 3.10+
 * **Machine Learning & Procesamiento:** `scikit-learn`, `pandas`, `numpy`
@@ -38,6 +39,7 @@ Esta herramienta automatiza el proceso de análisis financiero mediante:
 
 ---
 
+## Cómo Ejecutar el Proyecto Localmente
 
 Si deseas clonar y ejecutar este proyecto localmente en tu computadora:
 
